@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Create New Game</title>
+        <link rel="stylesheet" href="css/gameCSS.css" type="text/css"/>
+        <script type="text/javascript" src="scripts/jquery-2.1.4.min.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body id="backgroundPage">
+        <form id="newGameForm">
+            <table class="center">
+		<tr>
+        		<td> <label>Game Name: </label></td>
+			<td> <input id="gameName" type="text" name="gameName" value=""></td>
+                </tr>
+                <tr>
+                    <td>  <label>Amount of players: </label></td>
+                    <td> <select id="numOfPlayers" class="numOfPlayers" name="numOfPlayers">
+                            <option value="2"> 2 </option>
+                            <option value="3"> 3 </option>
+                            <option value="4"> 4 </option>
+                        </select></td></tr>
+                <tr>
+                    <td>  <label>Amount of human players: </label></td>
+                    <td>  <select id="numOfHumanPlayers" class="numOfHumanPlayers" name="numOfHumanPlayers">
+                        </select></td>
+                </tr>
+                <tr><td></td><td> <button type="submit" id="newGameBtn" class="btn">Create New Game</button></td> </tr>
+            </table>
+            <p class="errorMsg" align = "center"></p>
+        </form>
+        <script src="scripts/create.js"></script>
+    </body>
+</html>
+
+

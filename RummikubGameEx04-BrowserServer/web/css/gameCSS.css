@@ -1,0 +1,177 @@
+table{
+    color: black;
+    font-size: 20px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 20%;
+    color: black;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+.errorMsg{
+    height: 10px;
+}
+
+#backgroundPage{
+    alignment-adjust: central;
+    background-image: url("../resources/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 20%;
+    color: black;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+#indexPage{
+    alignment-adjust: central;
+    background-image: url("../resources/images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    color: white;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+#gameSessionPage{
+    background-image: url("../resources/images/gameBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+}
+
+#gameOverPage {
+    alignment-adjust: central;
+    background-image: url("../resources/images/gameOverBg.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 40%;
+    color: black;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+.createGameForm { 
+    margin-top: 25%;
+}
+
+.messageToDispaly {
+    margin-top: 10%;
+}
+
+p {
+    color: red;
+    margin: 4px;
+}
+
+.btn {
+    background: #d93434;
+    background-image: -webkit-linear-gradient(top, #d93434, #050505);
+    background-image: -moz-linear-gradient(top, #d93434, #050505);
+    background-image: -ms-linear-gradient(top, #d93434, #050505);
+    background-image: -o-linear-gradient(top, #d93434, #050505);
+    background-image: linear-gradient(to bottom, #d93434, #050505);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #D3D3D3;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    height: 50px;
+    width: 175px;
+    cursor: pointer;
+    pointer-events: auto;
+
+}
+
+.disableBtn {
+    background: #D3D3D3;
+    background-image: -webkit-linear-gradient(top, #D3D3D3, #050505);
+    background-image: -moz-linear-gradient(top, #D3D3D3, #050505);
+    background-image: -ms-linear-gradient(top, #D3D3D3, #050505);
+    background-image: -o-linear-gradient(top, #D3D3D3, #050505);
+    background-image: linear-gradient(to bottom, #D3D3D3, #050505);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #D3D3D3;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    height: 50px;
+    width: 175px;
+    cursor: default;
+    pointer-events: none;
+}
+
+.left {
+    position: relative;
+    left: 350px;
+    top: 100px;
+}
+
+.genralGameOptions { 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.chooseAction {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.insertToSerialOptions {
+    right: 18%;
+    bottom: 0;
+    position: fixed;
+    visibility: hidden
+}
+.playerHand {
+    font-size: 25px;
+    font-family: verdana;
+    position: relative;
+    right: 200px;
+    left: 300px;
+    width: 800px;
+    margin-top: 33%;
+}
+
+.board {
+    position: fixed; 
+    top: 5%;
+    margin-bottom:  33%;
+    left: 0; 
+    width: 800px;
+}
+
+.gameInfo {
+    position: fixed;
+    bottom: 35%;
+    left: 10%;
+    font-family: Arial;
+    color: blue;
+    font-size: 24px;
+}
+
+.tmpCurrentTurnView {
+    position: relative; 
+    top: 5%; 
+    left: 65%; 
+    right: 0%; 
+    bottom: -6%; 
+    font-family: Arial;
+    color: blue;
+    font-size: 24px;				
+}

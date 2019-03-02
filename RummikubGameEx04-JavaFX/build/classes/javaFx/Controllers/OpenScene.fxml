@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="345.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFx.Controllers.OpenSceneController">
+  <children>
+    <ImageView fitHeight="402.0" fitWidth="453.0" layoutY="-45.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../resources/bg.png" />
+      </image>
+    </ImageView>
+    <Button fx:id="createNewGameButton" layoutX="43.0" layoutY="43.0" mnemonicParsing="false" onAction="#onCreateNewGameClicked" prefHeight="36.0" prefWidth="122.0" text="Create New Game" />
+    <Button fx:id="loadGameButton" layoutX="44.0" layoutY="136.0" mnemonicParsing="false" onAction="#onLoadGameClicked" prefHeight="36.0" prefWidth="122.0" text="Load Game" />
+    <Text fx:id="errorText" fill="#ee1616" layoutX="43.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="233.13671875">
+      <font>
+        <Font size="15.0" />
+      </font>
+    </Text>
+      <Button fx:id="joinExistingGameButton" layoutX="44.0" layoutY="89.0" mnemonicParsing="false" onAction="#onJoinExistingGameClicked" prefHeight="36.0" prefWidth="122.0" text="Join Existing Game" />
+      <Label fx:id="gameNameLabel" layoutX="222.0" layoutY="130.0" text="Name:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="gameNameTextField" layoutX="265.0" layoutY="127.0" prefHeight="25.0" prefWidth="122.0" promptText="Enter a game name" />
+      <Button fx:id="setGameDetailButton" layoutX="317.0" layoutY="255.0" mnemonicParsing="false" onAction="#onSetGameDetailButtonClicked" prefHeight="25.0" prefWidth="73.0" text="Set Game" />
+      <ComboBox fx:id="amountOfPlayersComboBox" layoutX="321.0" layoutY="159.0" prefHeight="25.0" prefWidth="64.0" />
+      <ComboBox fx:id="amountOfDigitalPlayersComboBox" layoutX="321.0" layoutY="199.0" prefHeight="25.0" prefWidth="64.0" />
+      <Label fx:id="amountOfDigitalPlayersLabel" layoutX="147.0" layoutY="199.0" prefHeight="25.0" prefWidth="177.0" text="Amount of digital players:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="amountOfPlayersLabel" layoutX="194.0" layoutY="162.0" text="Amount of players:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelButton" layoutX="232.0" layoutY="255.0" mnemonicParsing="false" onAction="#onCancelButtonClicked" prefHeight="25.0" prefWidth="64.0" text="Cancel" />
+  </children>
+</AnchorPane>

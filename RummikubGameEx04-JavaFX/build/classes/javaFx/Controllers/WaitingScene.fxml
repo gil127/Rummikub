@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="254.0" prefWidth="254.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFx.Controllers.WaitingController">
+   <children>
+      <ImageView fitHeight="225.0" fitWidth="211.0" layoutX="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/images.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="errorLabel" layoutX="90.0" layoutY="216.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

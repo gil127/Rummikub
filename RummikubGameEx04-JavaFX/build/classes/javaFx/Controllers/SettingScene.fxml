@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="262.0" prefWidth="554.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFx.Controllers.SettingController">
+  <children>
+    <TextField fx:id="gameNameTextField" layoutX="108.0" layoutY="25.0" onAction="#onJoinClicked" prefHeight="25.0" prefWidth="322.0" promptText="Enter game name" />
+    <TextField fx:id="playerNameTextField" layoutX="109.0" layoutY="81.0" onAction="#onJoinClicked" prefHeight="25.0" prefWidth="322.0" promptText="Enter player name" />
+    <Label fx:id="playerNameLabel" layoutX="14.0" layoutY="81.0" prefHeight="25.0" prefWidth="91.0" text="Player Name:">
+        <font>
+            <Font name="System Bold" size="14.0" fx:id="x1" />
+        </font>
+    </Label>
+    <Button fx:id="joinButton" layoutX="465.0" layoutY="215.0" mnemonicParsing="false" onAction="#onJoinClicked" prefHeight="33.0" prefWidth="74.0" text="Join" />
+    <Label fx:id="errorMessageLabelForPlayer" alignment="CENTER" layoutX="266.0" layoutY="122.0" prefHeight="33.0" prefWidth="236.0" text="" textAlignment="CENTER" textFill="RED">
+      <font>
+        <Font name="System Bold" size="12.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Label fx:id="errorMessageLabelForJoin" alignment="CENTER" font="$x2" layoutX="199.0" layoutY="139.0" prefHeight="33.0" prefWidth="322.0" text="" textAlignment="CENTER" textFill="RED" />
+      <Button fx:id="viewWaitingGamesButton" layoutX="14.0" layoutY="166.0" mnemonicParsing="false" onAction="#onViewWaitingGamesClicked" prefHeight="33.0" prefWidth="146.0" text="View of waiting games" />
+      <Button fx:id="gameDetailsButton" layoutX="14.0" layoutY="215.0" mnemonicParsing="false" onAction="#onGameDetailsClicked" prefHeight="33.0" prefWidth="146.0" text="Game details" />
+      <Button fx:id="backButton" layoutX="384.0" layoutY="215.0" mnemonicParsing="false" onAction="#onBackButtonClicked" prefHeight="33.0" prefWidth="74.0" text="Back" />
+      <Label layoutX="14.0" layoutY="27.0" text="Game Name:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+  </children>
+</AnchorPane>

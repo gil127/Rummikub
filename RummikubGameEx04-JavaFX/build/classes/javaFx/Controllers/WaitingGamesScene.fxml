@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFx.Controllers.WaitingGamesController">
+   <children>
+      <TableView fx:id="waitingGameViewTable" layoutX="79.0" layoutY="74.0" prefHeight="266.0" prefWidth="261.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="260.0" text="Game Name" />
+        </columns>
+      </TableView>
+      <Label layoutX="64.0" layoutY="14.0" text="View Of Waiting Game">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="349.0" mnemonicParsing="false" onAction="#onBackButtonClicked" prefHeight="33.0" prefWidth="74.0" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="269.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFx.Controllers.ConnectToServerController">
+   <children>
+      <TextField fx:id="ipTextField" layoutX="68.0" layoutY="62.0" onAction="#continueClicked" prefHeight="32.0" prefWidth="198.0" promptText="localhost" text="localhost" />
+      <Button fx:id="continueButton" layoutX="283.0" layoutY="213.0" mnemonicParsing="false" onAction="#continueClicked" prefHeight="32.0" prefWidth="84.0" text="Continue" />
+      <TextField fx:id="portTextField" layoutX="68.0" layoutY="126.0" onAction="#continueClicked" prefHeight="32.0" prefWidth="198.0" promptText="8080" text="8080" />
+      <Label fx:id="ipLabel" layoutX="15.0" layoutY="66.0" text="IP:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="portLabel" layoutX="15.0" layoutY="129.0" text="Port:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorMessage" layoutX="11.0" layoutY="205.0" prefHeight="32.0" prefWidth="252.0" textFill="#b80909">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

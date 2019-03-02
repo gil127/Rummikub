@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/mta/RummikubGameEx04/RummikubGameEx04-LogicServer/Resource/rummikub.xsd" uri="src/conf/xml-resources/jaxb/generated/rummikub.xsd"/>
+    <system systemId="file:/C:/mta/RummikubGameEx04/RummikubGameEx04-LogicServer/Resource/RummikubWebServiceService.wsdl" uri="src/conf/xml-resources/web-services/RummikubGame/wsdl/RummikubWebServiceService.wsdl"/>
+    <system systemId="file:/C:/mta/RummikubGameEx04/RummikubGameEx04-LogicServer/Resource/RummikubWebServiceService_schema1.xsd" uri="src/conf/xml-resources/web-services/RummikubGame/wsdl/RummikubWebServiceService_schema1.xsd"/>
+</catalog>

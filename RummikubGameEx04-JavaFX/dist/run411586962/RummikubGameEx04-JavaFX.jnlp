@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="RummikubGameEx04-JavaFX.jnlp">
+  <information>
+    <title>RummikubGameEx04-JavaFX</title>
+    <vendor>or</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="RummikubGameEx04-JavaFX.jar" size="3977387" download="eager" />
+    <jar href="lib\Common.jar" size="21300" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="RummikubGameEx04-JavaFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="rummikubgameex04.RummikubGameEx04JavaFX"  name="RummikubGameEx04-JavaFX" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFx.Controllers.GameDetailsController">
+   <children>
+      <Label layoutX="170.0" layoutY="39.0" text="Game Details">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="120.0" text="Game Name:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="gameNameValueLabel" layoutX="159.0" layoutY="118.0" text="game1">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="158.0" text="Number Of Players:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberOfPlayersValueLabel" layoutX="220.0" layoutY="158.0" text="4">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="200.0" text="Number Of Digital Players:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="245.0" text="Number Of Human Players:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberOfHumanPlayersValueLabel" layoutX="270.0" layoutY="245.0" text="2">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberOfDigitalPlayersValueLabel" layoutX="265.0" layoutY="200.0" text="2">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="286.0" text="Number Of Human Players Joined:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberOfHumanPlayersJoinedValueLabel" layoutX="300.0" layoutY="288.0" text="1">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="320.0" layoutY="122.0" text="Game Status:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="gameStatusValueLabel" layoutX="414.0" layoutY="122.0" text="Active">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="21.0" layoutY="353.0" mnemonicParsing="false" onAction="#onBackButtonClicked" prefHeight="33.0" prefWidth="74.0" text="Back" />
+   </children>
+</AnchorPane>

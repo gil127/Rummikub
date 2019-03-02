@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Rummikub Game</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/gameCSS.css" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="scripts/jquery-2.1.4.min.js"></script>
+    </head>
+    <body id="gameSessionPage">
+        <div id = "gameInfo" class = "gameInfo"><span id = "messageInfo"> </span> 
+        </div>
+        <div id = "tmpCurrentTurnView" class = "tmpCurrentTurnView"> 
+        </div>
+    <center>
+        <div id = "board" class = "board">
+        </div>
+    </center>
+    <div class = "genralGameOptions">
+        <button id="finishTrnBtn" class="btn" onclick = "finishTurnClicked()">Finish turn</button>
+        <br></br>
+        <button id="playerDetailsBtn" class="btn" onclick = "location.href = 'GameSession?method=playerDetailsClicked';">Player Details</button>
+        <br></br>
+        <button id="quitBtn" class="btn" onclick = "location.href = 'GameSession?method=quitClicked';">Quit</button>
+    </div>
+    <div class ="chooseAction">
+        <button id="finishActionBtn" class="disableBtn" onclick = "finishActionClicked()">Finish Action</button>
+        <br>
+        <button id="createSerialBtn" class="btn" onclick = "createSeqClicked()">Create Serial</button>
+        <br>
+        <button id="insertToSerialBtn" class="btn" onclick = "insertClicked()">Insert To Serial</button>
+        <br>
+        <button id="replaceJokerBtn" class="btn" onclick = "replaceClicked()">Replace Joker</button>
+        <br>
+        <button id="takeBackBtn" class="btn" onclick = "takeBackTileClicked()">Take Back Tile</button>
+        <br> 
+        <button id="cancelBtn" class="disableBtn" onclick = "cancelClicked()">Cancel Action</button>
+    </div>
+    <div class = "insertToSerialOptions">
+        <select id="serialNumberToInsertComboBox" class="serialNumberToInsert"></select>
+        <select id="insertOptionComboBox" class="insertOption">
+            <option value="Begin"> Begin </option>
+            <option value="End"> End </option>
+            <option value="Middle"> Middle </option>
+        </select>
+        <button id="setSerialNumberBtn" class="btn" onClick = "setPositionClicked()">Set Position</button>
+    </div>
+    <div id = "playerHand" class="playerHand">
+    </div>
+    <script src="scripts/gameSession.js"></script>
+</body>
+</html>

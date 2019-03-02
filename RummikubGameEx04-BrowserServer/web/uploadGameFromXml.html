@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>Load Game</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="scripts/uploadGameFromXml.js"></script>
+    </head>
+    <body id="backgroundPage">
+        <form action = "uploadGame" enctype="multipart/form-data" method="POST">
+            <div align = "center"><input class="btn" type = "file" name="file1" ></div><br>
+            <div align = "center"><input class="btn" type="Submit" value="Load Game"></div><br><br>
+            <p class="errorMsg" align = "center"></p>
+        </form>
+    </body>
+</html>

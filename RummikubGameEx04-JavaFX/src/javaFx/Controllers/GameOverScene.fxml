@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFx.Controllers.GameOverController">
+   <children>
+      <ImageView fitHeight="387.0" fitWidth="506.0" layoutY="-3.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/PlayersSceneBG.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="playNewGameButton" layoutX="143.0" layoutY="216.0" mnemonicParsing="false" onAction="#playNewGameClicked" prefHeight="36.0" prefWidth="162.0" text="Play New Game">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="143.0" layoutY="274.0" mnemonicParsing="false" onAction="#exitClicked" prefHeight="36.0" prefWidth="162.0" text="Exit">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="winnerLabel" layoutX="91.0" layoutY="44.0" prefHeight="77.0" prefWidth="208.0" text="The Winner Is:">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="winnerNameLabel" layoutX="299.0" layoutY="60.0" prefHeight="46.0" prefWidth="194.0" text="winner_name">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
